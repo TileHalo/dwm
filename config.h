@@ -43,11 +43,15 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+	{ "MATLAB R2020b",     NULL,       NULL,       0,            1,           -1 },
+	{ "sun-awt-X11_XFramePeer",     NULL,       NULL,       0,            1,           -1 },
+	{ "MATLAB R2020b - academic use",     NULL,       NULL,       0,            1,           -1 },
 	{ "firefox",  NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "discord",  NULL,       NULL,       1 << 7,       0,           1 },
 	{ "TelegramDesktop",  NULL,       NULL,       1 << 8,       0,           1 },
 	{ "Slack",  NULL,       NULL,       1 << 6,       0,           1 },
 	{ "eow-debug",  NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "teams-for-linux",  NULL,       NULL,       1 << 5,       0,           -1 },
 	{ "Steam",  NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "battle.net.exe",  NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "starcraft.exe",  NULL,       NULL,       1 << 0,       0,           -1 },
